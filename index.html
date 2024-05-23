@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Hi'Selamat Datang.</h1>
+            <h2>Kalkulator Menghitung Luas dan keliling Segitiga</h2>
+        </div>
+        <div class="main">
+            <div id="luas-segitiga">
+                <h1>Luas Segitiga</h1>
+                <div class="segitiga">
+                    <img src="./assets/luas.png" alt="">
+                    <h3 id="hasil"></h3>
+                </div>
+                <div class="hitug-luas">
+                    <h3>Hitung Luas Segitiga</h3>
+                    <form action="">
+                        <input id="alas" type="number" placeholder="masukkan angka yang mau di hitung..">
+                        <input id="tinggi" type="number" placeholder="masukkan angka yang mau di hitung..">
+                        <button onclick="hitungLuas()">Hitung</button>
+                    </form>
+                </div>
+            </div>
+            <div id="keliling-segitiga">
+                <h1>Luas Segitiga</h1>
+                <div class="segitiga">
+                    <img src="./assets/luas.png" alt="">
+                    <h3 class="hasil" id="hasilkeliling"></h3>
+                </div>
+                <div class="hitug-luas">
+                    <h3>Hitung Keliling Segitiga</h3>
+                    <form action="">
+                        <input id="a" type="number" placeholder="masukkan angka yang mau di hitung..">
+                        <input id="b" type="number" placeholder="masukkan angka yang mau di hitung..">
+                        <input id="c" type="number" placeholder="masukkan angka yang mau di hitung..">
+                        
+                        <button onclick="hitungKeliling()">Hitung</button>
+                    </form>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
